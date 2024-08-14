@@ -16,6 +16,7 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+
 .header {
     padding-top: 0;
     margin: 0;
@@ -215,6 +216,123 @@ a {
     padding: 15px;
 
 }
+
+.capability_container {
+    max-width: 940px;
+    height: 446px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 90px;
+
+}
+
+.capability_inner {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+
+}
+
+.capability_header {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 125px;
+    letter-spacing: 2px;
+    padding-bottom: 35px;
+
+}
+
+.capability_header:after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: var(--blue);
+    display: block;
+    margin-top: 10px;
+
+}
+
+
+.cap_text {
+    font-size: 11px;
+    font-weight: 400;
+    margin: 20px 20px 0 0;
+    letter-spacing: 0.19px;
+
+}
+
+.capability_item {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.icon {
+    margin: 40px 0 13px;
+
+}
+
+.icon_item {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 24px;
+    margin: 30px 25px 0 0;
+    justify-content: space-between;
+    max-width: 295px;
+    border: 1px solid var(--grey);
+
+}
+
+.icon_item:last-child {
+    margin-right: 0;
+   
+}
+
+.icon_cap {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+
+}
+
+.icon_text {
+    line-height: 23px;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.19px;
+    margin-top: 1px;
+}
+
+.blue_button {
+    display: block;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    border: 0;
+    background: var(--blue);
+    margin-top: 18px;
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 13px;
+    transition: all .35s;
+
+}
+
+
+button:hover {
+    width: 150px;
+    border: 3px solid var(--blue);
+    background: transparent;
+    color: var(--blue);
+}
+
 
 .story_item:nth-child(1) {
     background-image: url(../img/plane.png);
