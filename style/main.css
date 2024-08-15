@@ -222,8 +222,9 @@ a {
     height: 446px;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 0 auto 220px;
     padding-top: 90px;
+
 
 }
 
@@ -261,13 +262,13 @@ a {
     font-weight: 400;
     margin: 20px 20px 0 0;
     letter-spacing: 0.19px;
+    color: var(--dark);
 
 }
 
 .capability_item {
     display: flex;
     flex-direction: row;
-
 
 }
 
@@ -290,13 +291,14 @@ a {
 
 .icon_item:last-child {
     margin-right: 0;
-   
+
 }
 
 .icon_cap {
     text-transform: uppercase;
     font-size: 16px;
     letter-spacing: 0.5px;
+    color: var(--dark);
 
 }
 
@@ -306,6 +308,7 @@ a {
     font-weight: 400;
     letter-spacing: 0.19px;
     margin-top: 1px;
+    color: var(--dark);
 }
 
 .blue_button {
@@ -331,6 +334,34 @@ button:hover {
     border: 3px solid var(--blue);
     background: transparent;
     color: var(--blue);
+}
+
+.question_section {
+    margin: 0 auto;
+    height: 500px;
+    background-image: url(../img/get-in-touch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 130px;
+
+}
+
+
+.get_question {
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    text-align: center;
+    color: var(--dark);
+}
+
+.get_in_touch{
+
 }
 
 
